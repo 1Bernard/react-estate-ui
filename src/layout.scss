@@ -5,6 +5,8 @@
   max-width: 1366px;
   margin-inline: auto; //inline: both left and right
   padding-inline: 20px; //inline: both left and right
+  display: flex;
+  flex-direction: column;
 
   @include lg {
     background-color: rgba(247, 210, 196);
@@ -21,5 +23,7 @@
     max-width: 640px;
   }
 
-
+  .content {
+    flex: 1;
+  }
 }
